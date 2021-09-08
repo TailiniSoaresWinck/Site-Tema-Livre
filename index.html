@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Vases</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <img id="fundo" src="imagens/fundo.jpg" />
+    <header class="flex-container">
+        <div><h1 id="logo">Simple Vases</h1></div>
+        <div><img id="icon-menu" src="imagens/menu-amburger.png" /></div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#mais">Mais vendidos</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3 href="#sobre">Sobre:</h3>
+        <p>Simple Vases é uma empresa de design dinarmaquesa que redescobre e recria as artes aplicadas de nossa tradição e herança mútua de design escandinavo.</p>
+        <p>Nosso objetivo é tornar o seu lar ainda mais aconchegante com nossos produtos.</p>
+        <p>Esperamos que você se surpreenda com nossos produtos, pensamos em cada detalhe para vocês nossos clientes.</p>
+        <h3 href="#mais">Mais vendidos:</h3>
+        <div id="mais" class="flex-container">
+        <div>
+        <h4>Conjunto de porcelana branca</h4>
+        <img  id="branco" src="imagens/conjunto branca.jpg" />
+        <p>R$ 189,99</p>
+        <p>Em até 4x  R$ 47,49 sem juros</p>
+        <p>Com frete grátis</p>
+        </div>
+        <div>
+        <h4>Conjunto de decoração preto</h4>
+        <img id="preto" src="imagens/conjuntop.jpg" />
+        <p>R$ 259,99</p>
+        <p>Em até 3x R$ 86,66 sem juros</p>
+        <p>Com frete grátis</p>
+        </div>
+        <div>
+        <h4>Castiçal de porcelana branca</h4>
+        <img id="castiçal" src="imagens/castiçal.jpg" />
+        <p>R$ 109,99</p>
+        <p>Em até 2x R$ 54,99 sem juros</p>
+        <p>Com frete grátis </p>
+        </div>
+        </div>
+        <h3 href="#produtos">Produtos:</h3>
+        <div id="produtos" class="flex-container"> 
+        <div>
+        <img src="imagens/coleçãob.jpg" />
+        <p>Coleção de vasos em porcelana branca.</p>
+        <p>R$ 609,99</p>
+        <p>Em até 5x R$ 121,99 sem juros</p>
+        <p>Com frete grátis </p>
+        </div>
+        <div>
+        <img src="imagens/coleçãop.jpg" />
+        <p>Coleção de vasos em porcelana    preto.</p>
+        <p>R$ 509,99</p>
+        <p>Em até 4x R$ 127,49 sem juros</p>
+        <p>Com frete grátis</p>
+        </div>
+        <div>
+        <img src="imagens/pratoss.jpg" />
+        <p>Pratos em porcelana branca.</p>
+        <p>R$ 169,99</p>
+        <p>Em até 4x R$ 42,99 sem juros</p>
+        <p>Com frete grátis</p>
+        </div>
+        </div>
+        <h3 href="Contato">Contato:</h3>
+        <p>Celular:</p>
+        <p>055 51 99832-4857</p>
+        <p>Telefone fixo:</p>
+        <p>055 51 99723-4567</p>
+        <p>Email:</p>
+        <p>simplevases@gmail.com</p>
+    </main>
+    <footer>
+        <p>Simple Vases-2021</p>
+    </footer>
+</body>
+    <script>
+        let nav=document.querySelector("nav");
+        
+        let icon=document.querySelector("#icon-menu");
+        icon.onclick=function(){
+            if(nav.style.display=="none")
+            nav.style.display="block"
+            else
+                nav.style.display="none"
+        }
+    </script>
+</html>
