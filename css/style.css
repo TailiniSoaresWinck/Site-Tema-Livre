@@ -164,6 +164,148 @@ footer p{
     font-weight: bold;
 }
 
+@media only screen and (min-width:480px) and (max-width:640px){
+    body{
+        width:100%;
+    }
+    header{
+        display:flex;
+        width: 100%;
+        }
+        
+    #fundo{
+        opacity: 1;
+        z-index:-1;
+        position:absolute;
+        height: 20vh;
+        width: 100%;
+    }
+
+    div{
+        width:50%;
+    }
+
+    div #logo{
+        width:100%;
+        margin-top: 12vh;
+        font-size: 22px;
+        align-self: justify;
+        margin-left: 5vw;
+        font-family:  'Montserrat Alternates', sans-serif;
+    }
+
+
+    div #icon-menu{
+        width:30%;
+        margin-left: 28vw;
+        margin-top:10vh;
+    }
+
+    div #icon-menu img{
+        width:90%;
+    
+    }
+
+    nav{
+        width:100%;
+        background-color: #C4C4C4;
+        margin-top: 20vh;
+        position: absolute;
+        font-family:'Montserrat Alternates', sans-serif;
+        display:none;
+    }   
+
+    nav ul{
+        list-style: none;
+    }
+
+    nav li{
+        padding-bottom: 4vh;
+        padding-top: 4vh;
+        border-bottom: #000 solid 1px;
+        text-align: center;
+    }
+
+    nav a{
+        text-decoration: none;
+        color:#000;
+        font-weight: bold;
+        line-height: 2;
+        font-size:24px;
+    }
+        
+    main{
+        width:90%;
+        margin-top: 2vh;
+        margin-left: 4vw;
+        font-family:'Montserrat Alternates', sans-serif ;
+        font-size: 18px;
+    }
+
+    h3{
+        margin-top: 4vh;
+    }
+
+    p{
+        margin-top: 4vh;
+    }
+    
+    #mais{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-top: 2vh;
+        font-family: 'Roboto', sans-serif;
+    }
+    #mais div{
+        width: 100%;
+    }
+    #mais div img{
+        margin-left: 6vw;
+        width: 90%;
+    }
+    #mais div h4{
+        width: 90%;
+        font-size: 14px;
+        margin-top: 3vh;
+        margin-left: 6vw;
+        background-color: #C4C4C4;
+    }
+    #mais div p{
+        margin-top: 2vh;
+        font-size: 14px;
+        margin-left: 6vw;
+    }
+    
+    #produtos{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-top: 5vh;
+        font-family: 'Roboto', sans-serif;
+    }
+    #produtos div{
+        width:100%;
+    }
+    #produtos div img{
+        margin-left: 6vw;
+        margin-top: 1vh;
+        width: 90%;
+    }
+
+    #produtos div p{
+        margin-top: 2vh;
+        font-size: 14px;
+        margin-left: 6vw;
+    }
+    footer{
+        width:100%;
+    }
+    footer p{
+        font-size: 18px;
+    }
+}
+
 @media only screen and (min-width:980px){
     body{
         width:100%
@@ -266,7 +408,9 @@ footer p{
         margin-top: 5vh;
         font-family: 'Roboto', sans-serif;
     }
-
+    #produtos div{
+        width:90%;
+    }
     #produtos div img{
         margin-left: 8vw;
         margin-top: 3vh;
